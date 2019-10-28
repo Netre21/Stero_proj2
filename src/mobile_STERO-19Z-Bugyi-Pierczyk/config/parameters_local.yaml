@@ -1,0 +1,6 @@
+plugins: 
+    - {name: static_map,       type: "costmap_2d::StaticLayer"}
+    - {name: obstacles,        type: "costmap_2d::VoxelLayer"}
+footprint: [[0.3, 0.2], [0.3, -0.2], [-0.3, -0.2], [-0.3, 0.2]]
+inflation_radius : 0.55
+cost_scaling_factor : 10
